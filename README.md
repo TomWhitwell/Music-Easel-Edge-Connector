@@ -26,6 +26,6 @@ Things to watch out for:
 * The edge connector runs right up to the edge of the board, so you may get design rule errors, which you can probably ignore. 
 * Eagle doesn't seem to understand that the outline layer in the part connects with the outline layer on the rest of the board, so it looks as if the outline layer is incomplete. However, this doesn't seem to be a real issue - the gerbers produced have a complete outline layer. 
 
-Thank you to Mark Borri for his help with this, and for [Portabellabs](http://www.portabellabz.be/toolbox.html) for the pinout details, in the documentation for their excellent 208 Toolbox. 
+Thank you to Marc Borri for his help with this, and for [Portabellabs](http://www.portabellabz.be/toolbox.html) for the pinout details, in the documentation for their excellent 208 Toolbox. 
 
 This part was designed by Tom Whitwell in Herne Hill, London, in June 2021. You are free to use it however you want. 
