@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -237,10 +237,10 @@ Edge connector outline stops 12.7mm / 500mil from bottom</text>
 <text x="129.921" y="2.159" size="1.016" layer="21" rot="R90">FRONT</text>
 </package>
 <package name="EASEL_EDGE_SMALL">
-<wire x1="16.37" y1="12.7" x2="16.37" y2="1.75" width="0.05" layer="20"/>
-<wire x1="16.37" y1="1.75" x2="17.9366" y2="0" width="0.05" layer="20" curve="90"/>
-<wire x1="17.9366" y1="0" x2="128.37" y2="0" width="0.05" layer="20"/>
-<wire x1="128.37" y1="0" x2="130.37" y2="1.84" width="0.05" layer="20" curve="90"/>
+<wire x1="16.37" y1="12.7" x2="16.37" y2="1.84" width="0.05" layer="20"/>
+<wire x1="16.37" y1="1.84" x2="17.8888" y2="-0.0344" width="0.05" layer="20" curve="90"/>
+<wire x1="17.9366" y1="-0.0344" x2="128.37" y2="-0.16" width="0.05" layer="20"/>
+<wire x1="128.37" y1="-0.16" x2="130.37" y2="1.84" width="0.05" layer="20" curve="90"/>
 <wire x1="130.37" y1="1.84" x2="130.37" y2="12.7" width="0.05" layer="20"/>
 <smd name="F$1" x="20.0025" y="3.4925" dx="2.7432" dy="6.985" layer="1"/>
 <smd name="F$2" x="23.9649" y="3.4925" dx="2.7432" dy="6.985" layer="1"/>

@@ -168,10 +168,10 @@
 <wire x1="0" y1="9.99" x2="2.37" y2="7.62" width="0.05" layer="20" curve="90"/>
 <wire x1="2.37" y1="7.62" x2="14.37" y2="7.62" width="0.05" layer="20"/>
 <wire x1="14.37" y1="7.62" x2="16.37" y2="5.34" width="0.05" layer="20" curve="-90"/>
-<wire x1="16.37" y1="5.34" x2="16.37" y2="1.84" width="0.05" layer="20"/>
-<wire x1="16.37" y1="1.84" x2="17.8888" y2="-0.0344" width="0.05" layer="20" curve="90"/>
-<wire x1="17.9366" y1="-0.0344" x2="128.37" y2="-0.16" width="0.05" layer="20"/>
-<wire x1="128.37" y1="-0.16" x2="130.37" y2="1.84" width="0.05" layer="20" curve="90"/>
+<wire x1="16.37" y1="5.34" x2="16.37" y2="1.651" width="0.05" layer="20"/>
+<wire x1="16.37" y1="1.651" x2="17.9366" y2="0" width="0.05" layer="20" curve="90"/>
+<wire x1="17.9366" y1="0" x2="128.37" y2="0" width="0.05" layer="20"/>
+<wire x1="128.37" y1="0" x2="130.37" y2="1.84" width="0.05" layer="20" curve="90"/>
 <wire x1="130.37" y1="1.84" x2="130.37" y2="4.84" width="0.05" layer="20"/>
 <wire x1="130.37" y1="4.84" x2="132.87" y2="7.62" width="0.05" layer="20" curve="-90"/>
 <smd name="F$1" x="20.0025" y="3.4925" dx="2.7432" dy="6.985" layer="1"/>
@@ -237,8 +237,8 @@ Edge connector outline stops 12.7mm / 500mil from bottom</text>
 <text x="129.921" y="2.159" size="1.016" layer="21" rot="R90">FRONT</text>
 </package>
 <package name="EASEL_EDGE_SMALL">
-<wire x1="16.37" y1="12.7" x2="16.37" y2="1.84" width="0.05" layer="20"/>
-<wire x1="16.37" y1="1.84" x2="17.9366" y2="0" width="0.05" layer="20" curve="90"/>
+<wire x1="16.37" y1="12.7" x2="16.37" y2="1.75" width="0.05" layer="20"/>
+<wire x1="16.37" y1="1.75" x2="17.9366" y2="0" width="0.05" layer="20" curve="90"/>
 <wire x1="17.9366" y1="0" x2="128.37" y2="0" width="0.05" layer="20"/>
 <wire x1="128.37" y1="0" x2="130.37" y2="1.84" width="0.05" layer="20" curve="90"/>
 <wire x1="130.37" y1="1.84" x2="130.37" y2="12.7" width="0.05" layer="20"/>
