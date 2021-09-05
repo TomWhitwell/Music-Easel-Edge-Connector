@@ -1,6 +1,6 @@
 # Music Easel Edge Connector
  
- *** NB: THIS IS NOT FULLY UNTESTED, I will update once my prototypes are ready *** 
+ *** NB: THIS IS NOT FULLY TESTED, read below*** 
  
  This is an Eagle Library for the card edge for Buchla Music Easel expansion cards. This should work with BEMI Music Easels and clones, apart from the 208r rev1  which has different pinout. NB: I take no responsibility at all for anything designed using this part.
  
