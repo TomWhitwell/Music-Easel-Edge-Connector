@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -316,19 +316,19 @@ Right side: 130.37mm / 5132.67717 mil </text>
 <circle x="0" y="0" radius="5.588" width="0.127" layer="51"/>
 </package>
 <package name="EASEL_EDGE_RIGHT_ALIGN">
-<wire x1="147.87" y1="7.62" x2="156.968140625" y2="7.62" width="0.05" layer="20"/>
+<wire x1="145.37" y1="1.84" x2="145.37" y2="6.94" width="0.05" layer="20"/>
+<wire x1="145.37" y1="6.94" x2="146.05" y2="7.62" width="0.05" layer="20" curve="-90"/>
+<wire x1="146.05" y1="7.62" x2="156.968140625" y2="7.62" width="0.05" layer="20"/>
 <wire x1="156.968140625" y1="7.62" x2="160" y2="10.651859375" width="0.05" layer="20" curve="90"/>
 <wire x1="160" y1="10.651859375" x2="160" y2="12.7" width="0.05" layer="20"/>
 <wire x1="0" y1="12.7" x2="0" y2="9.99" width="0.05" layer="20"/>
 <wire x1="0" y1="9.99" x2="2.37" y2="7.62" width="0.05" layer="20" curve="90"/>
-<wire x1="2.37" y1="7.62" x2="29.37" y2="7.62" width="0.05" layer="20"/>
-<wire x1="29.37" y1="7.62" x2="31.37" y2="5.34" width="0.05" layer="20" curve="-90"/>
-<wire x1="31.37" y1="5.34" x2="31.37" y2="1.651" width="0.05" layer="20"/>
+<wire x1="2.37" y1="7.62" x2="30.48" y2="7.62" width="0.05" layer="20"/>
+<wire x1="30.48" y1="7.62" x2="31.37" y2="6.73" width="0.05" layer="20" curve="-90"/>
+<wire x1="31.37" y1="6.73" x2="31.37" y2="1.651" width="0.05" layer="20"/>
 <wire x1="31.37" y1="1.651" x2="32.9366" y2="0" width="0.05" layer="20" curve="90"/>
 <wire x1="32.9366" y1="0" x2="143.37" y2="0" width="0.05" layer="20"/>
 <wire x1="143.37" y1="0" x2="145.37" y2="1.84" width="0.05" layer="20" curve="90"/>
-<wire x1="145.37" y1="1.84" x2="145.37" y2="4.84" width="0.05" layer="20"/>
-<wire x1="145.37" y1="4.84" x2="147.87" y2="7.62" width="0.05" layer="20" curve="-90"/>
 <smd name="F$1" x="35.0025" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
 <smd name="F$2" x="38.9649" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
 <smd name="F$3" x="42.9273" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>

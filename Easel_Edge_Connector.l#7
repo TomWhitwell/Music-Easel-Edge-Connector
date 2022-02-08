@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -40,8 +40,8 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -304,16 +304,6 @@ Edge connector outline stops 12.7mm / 500mil from bottom
 Left side: 16.37mm / 644.48819 mil
 Right side: 130.37mm / 5132.67717 mil </text>
 <text x="129.794" y="2.54" size="1.016" layer="21" rot="R90">FRONT</text>
-</package>
-<package name="BANANA_SOCKET_PCBMOUNT">
-<polygon width="0.127" layer="46">
-<vertex x="2.794" y="3.175"/>
-<vertex x="-2.794" y="3.175" curve="100"/>
-<vertex x="-2.794" y="-3.175" curve="-3.13844"/>
-<vertex x="2.794" y="-3.175" curve="100"/>
-</polygon>
-<pad name="P$1" x="0" y="-7.62" drill="1" shape="square"/>
-<circle x="0" y="0" radius="5.588" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>

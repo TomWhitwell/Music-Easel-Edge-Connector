@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -587,6 +587,69 @@ Edge connector outline stops 12.7mm / 500mil from bottom</text>
 </technologies>
 </device>
 <device name="SMALL" package="EASEL_EDGE_SMALL">
+<connects>
+<connect gate="G$1" pin="B$1" pad="B$1"/>
+<connect gate="G$1" pin="B$10" pad="B$10"/>
+<connect gate="G$1" pin="B$11" pad="B$11"/>
+<connect gate="G$1" pin="B$12" pad="B$12"/>
+<connect gate="G$1" pin="B$13" pad="B$13"/>
+<connect gate="G$1" pin="B$14" pad="B$14"/>
+<connect gate="G$1" pin="B$15" pad="B$15"/>
+<connect gate="G$1" pin="B$16" pad="B$16"/>
+<connect gate="G$1" pin="B$17" pad="B$17"/>
+<connect gate="G$1" pin="B$18" pad="B$18"/>
+<connect gate="G$1" pin="B$19" pad="B$19"/>
+<connect gate="G$1" pin="B$2" pad="B$2"/>
+<connect gate="G$1" pin="B$20" pad="B$20"/>
+<connect gate="G$1" pin="B$21" pad="B$21"/>
+<connect gate="G$1" pin="B$22" pad="B$22"/>
+<connect gate="G$1" pin="B$23" pad="B$23"/>
+<connect gate="G$1" pin="B$24" pad="B$24"/>
+<connect gate="G$1" pin="B$25" pad="B$25"/>
+<connect gate="G$1" pin="B$26" pad="B$26"/>
+<connect gate="G$1" pin="B$27" pad="B$27"/>
+<connect gate="G$1" pin="B$28" pad="B$28"/>
+<connect gate="G$1" pin="B$3" pad="B$3"/>
+<connect gate="G$1" pin="B$4" pad="B$4"/>
+<connect gate="G$1" pin="B$5" pad="B$5"/>
+<connect gate="G$1" pin="B$6" pad="B$6"/>
+<connect gate="G$1" pin="B$7" pad="B$7"/>
+<connect gate="G$1" pin="B$8" pad="B$8"/>
+<connect gate="G$1" pin="B$9" pad="B$9"/>
+<connect gate="G$1" pin="F$1" pad="F$1"/>
+<connect gate="G$1" pin="F$10" pad="F$10"/>
+<connect gate="G$1" pin="F$11" pad="F$11"/>
+<connect gate="G$1" pin="F$12" pad="F$12"/>
+<connect gate="G$1" pin="F$13" pad="F$13"/>
+<connect gate="G$1" pin="F$14" pad="F$14"/>
+<connect gate="G$1" pin="F$15" pad="F$15"/>
+<connect gate="G$1" pin="F$16" pad="F$16"/>
+<connect gate="G$1" pin="F$17" pad="F$17"/>
+<connect gate="G$1" pin="F$18" pad="F$18"/>
+<connect gate="G$1" pin="F$19" pad="F$19"/>
+<connect gate="G$1" pin="F$2" pad="F$2"/>
+<connect gate="G$1" pin="F$20" pad="F$20"/>
+<connect gate="G$1" pin="F$21" pad="F$21"/>
+<connect gate="G$1" pin="F$22" pad="F$22"/>
+<connect gate="G$1" pin="F$23" pad="F$23"/>
+<connect gate="G$1" pin="F$24" pad="F$24"/>
+<connect gate="G$1" pin="F$25" pad="F$25"/>
+<connect gate="G$1" pin="F$26" pad="F$26"/>
+<connect gate="G$1" pin="F$27" pad="F$27"/>
+<connect gate="G$1" pin="F$28" pad="F$28"/>
+<connect gate="G$1" pin="F$3" pad="F$3"/>
+<connect gate="G$1" pin="F$4" pad="F$4"/>
+<connect gate="G$1" pin="F$5" pad="F$5"/>
+<connect gate="G$1" pin="F$6" pad="F$6"/>
+<connect gate="G$1" pin="F$7" pad="F$7"/>
+<connect gate="G$1" pin="F$8" pad="F$8"/>
+<connect gate="G$1" pin="F$9" pad="F$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RIGHT_ALIGN" package="EASEL_EDGE_RIGHT_ALIGN">
 <connects>
 <connect gate="G$1" pin="B$1" pad="B$1"/>
 <connect gate="G$1" pin="B$10" pad="B$10"/>
