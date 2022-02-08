@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -435,11 +435,6 @@ Right side: 130.37mm / 5132.67717 mil </text>
 <wire x1="-48.26" y1="15.24" x2="-48.26" y2="88.9" width="0.254" layer="94"/>
 <text x="5.08" y="25.4" size="1.27" layer="94" align="center-right">LPG2 Level CV in</text>
 </symbol>
-<symbol name="BANANA_SOCKET">
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<pin name="P$1" x="-7.62" y="0" length="middle"/>
-<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="EASEL_EDGE">
@@ -568,21 +563,6 @@ Right side: 130.37mm / 5132.67717 mil </text>
 <connect gate="G$1" pin="F$7" pad="F$7"/>
 <connect gate="G$1" pin="F$8" pad="F$8"/>
 <connect gate="G$1" pin="F$9" pad="F$9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BANANA_SOCKET">
-<gates>
-<gate name="G$1" symbol="BANANA_SOCKET" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BANANA_SOCKET_PCBMOUNT">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>

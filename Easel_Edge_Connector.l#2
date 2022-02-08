@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -60,7 +60,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -315,6 +315,82 @@ Right side: 130.37mm / 5132.67717 mil </text>
 <pad name="P$1" x="0" y="-7.62" drill="1" shape="square"/>
 <circle x="0" y="0" radius="5.588" width="0.127" layer="51"/>
 </package>
+<package name="EASEL_EDGE_RIGHT_ALIGN">
+<wire x1="147.87" y1="7.62" x2="156.968140625" y2="7.62" width="0.05" layer="20"/>
+<wire x1="156.968140625" y1="7.62" x2="160" y2="10.651859375" width="0.05" layer="20" curve="90"/>
+<wire x1="160" y1="10.651859375" x2="160" y2="12.7" width="0.05" layer="20"/>
+<wire x1="0" y1="12.7" x2="0" y2="9.99" width="0.05" layer="20"/>
+<wire x1="0" y1="9.99" x2="2.37" y2="7.62" width="0.05" layer="20" curve="90"/>
+<wire x1="2.37" y1="7.62" x2="29.37" y2="7.62" width="0.05" layer="20"/>
+<wire x1="29.37" y1="7.62" x2="31.37" y2="5.34" width="0.05" layer="20" curve="-90"/>
+<wire x1="31.37" y1="5.34" x2="31.37" y2="1.651" width="0.05" layer="20"/>
+<wire x1="31.37" y1="1.651" x2="32.9366" y2="0" width="0.05" layer="20" curve="90"/>
+<wire x1="32.9366" y1="0" x2="143.37" y2="0" width="0.05" layer="20"/>
+<wire x1="143.37" y1="0" x2="145.37" y2="1.84" width="0.05" layer="20" curve="90"/>
+<wire x1="145.37" y1="1.84" x2="145.37" y2="4.84" width="0.05" layer="20"/>
+<wire x1="145.37" y1="4.84" x2="147.87" y2="7.62" width="0.05" layer="20" curve="-90"/>
+<smd name="F$1" x="35.0025" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$2" x="38.9649" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$3" x="42.9273" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$4" x="46.8897" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$5" x="50.8521" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$6" x="54.8145" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$7" x="58.7769" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$8" x="62.7393" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$9" x="66.7017" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$10" x="70.6641" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$11" x="74.6265" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$12" x="78.5889" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$13" x="82.5513" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$14" x="86.5137" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$15" x="90.4761" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$16" x="94.4385" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$17" x="98.4009" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$18" x="102.3633" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$19" x="106.3257" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$20" x="110.2881" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$21" x="114.2505" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$22" x="118.2129" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$23" x="122.1753" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$24" x="126.1377" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$25" x="130.1001" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$26" x="134.0625" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$27" x="138.0249" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="F$28" x="141.9873" y="3.4925" dx="2.7432" dy="6.985" layer="1" cream="no"/>
+<smd name="B$1" x="20.0025" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$2" x="23.9649" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$3" x="27.9273" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$4" x="31.8897" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$5" x="35.8521" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$6" x="39.8145" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$7" x="43.7769" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$8" x="47.7393" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$9" x="51.7017" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$10" x="55.6641" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$11" x="59.6265" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$12" x="63.5889" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$13" x="67.5513" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$14" x="71.5137" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$15" x="75.4761" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$16" x="79.4385" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$17" x="83.4009" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$18" x="87.3633" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$19" x="91.3257" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$20" x="95.2881" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$21" x="99.2505" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$22" x="103.2129" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$23" x="107.1753" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$24" x="111.1377" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$25" x="115.1001" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$26" x="119.0625" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$27" x="123.0249" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<smd name="B$28" x="126.9873" y="3.4925" dx="2.7432" dy="6.985" layer="16" rot="R180" cream="no"/>
+<text x="32.907" y="2.032" size="1.016" layer="21" rot="R90">FRONT</text>
+<text x="8.89" y="-6.35" size="1.27" layer="51" align="center-left">When positioned at origin: 
+Board is 160mm / 6299.2126 mil wide
+Edge connector outline stops 12.7mm / 500mil from bottom</text>
+<text x="144.921" y="2.159" size="1.016" layer="21" rot="R90">FRONT</text>
+</package>
 </packages>
 <symbols>
 <symbol name="EASEL_EDGE">
@@ -434,6 +510,11 @@ Right side: 130.37mm / 5132.67717 mil </text>
 <pin name="B$28" x="-53.34" y="17.78" visible="off" length="middle"/>
 <wire x1="-48.26" y1="15.24" x2="-48.26" y2="88.9" width="0.254" layer="94"/>
 <text x="5.08" y="25.4" size="1.27" layer="94" align="center-right">LPG2 Level CV in</text>
+</symbol>
+<symbol name="BANANA_SOCKET">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="0" length="middle"/>
+<circle x="0" y="0" radius="3.5921" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -563,6 +644,21 @@ Right side: 130.37mm / 5132.67717 mil </text>
 <connect gate="G$1" pin="F$7" pad="F$7"/>
 <connect gate="G$1" pin="F$8" pad="F$8"/>
 <connect gate="G$1" pin="F$9" pad="F$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BANANA_SOCKET">
+<gates>
+<gate name="G$1" symbol="BANANA_SOCKET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BANANA_SOCKET_PCBMOUNT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
